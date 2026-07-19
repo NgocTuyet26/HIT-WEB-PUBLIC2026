@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>THÔNG TIN CÁ NHÂN </h1>
+
+<a href="#gioithieu">Giới thiệu</a> |
+<a href="#sothich">Sở thích</a> |
+<a href="#kynang">Kỹ năng</a> |
+<a href="#thoikhoabieu">Thời khóa biểu</a> |
+<a href="#lienhe">Liên hệ</a>
+
+<hr>
+    <img src ="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/avatar-anh-meo-cute-4.jpg"
+         alt = " Ảnh mèo "
+         width = "100"
+         height = "100">
+
+    <h2>Thông tin cá nhân</h2>
+    <p><strong>Họ tên:</strong> Nguyễn Thị Ngọc Tuyết</p>
+    <p><strong>Tuổi:</strong> 19</p>
+    <p><strong>Trường:</strong> Đại học Công nghiệp Hà Nội</p>
+    <p><strong>Ngành:</strong> Hệ thống thông tin</p>
+    <p><strong>Lớp:</strong> HTTT02</p>
+    <p><strong>Email:</strong> nguyenthingoctuyet@gmail.com</p>
+    <p><strong>SĐT:</strong>0112113115</p>
+
+    <h2>Giới thiệu bản thân</h2>
+    <p>Em chào anh chị ạ. Em là Ngọc Tuyết quê ở Khánh Hòa, hiện tại em đang là sinh viên ngành Hệ thống thông tin .</p>
+    
+    <p>Em yêu thích lĩnh vưc CNTT và ht vọng trong quá trình học tập sẽ tích lũy được nhiều kiến thức,kỹ năng thực tế.</p>
+
+    <p> Mục tiêu của em là trở thành Data Analyst, tiếp tục phát triển bản thân trong lĩnh vực mà mình theo đuổi ạ.</p>
+    
+    <hr>
+    <h2>Sở thích</h2>
+    <ul>
+        <li>Nấu ăn</li>
+        <li>Nghe nhạc</li>
+        <li>Lập trình</li>
+        <li>Du lịch</li>
+        <li>Đọc sách</li>
+    </ul>
+
+    <hr>
+    <h2>Kỹ năng</h2>
+    <ol>
+        <li>Lập trình C++ cơ bản</li>
+        <li>Lập trình Python cơ bản</li>
+        <li>Lập trình Java cơ bản</li>
+        <li>Thiết kế Web cơ bản</li>
+        <li>Biết cách sử dụng Git và GitHub</li>
+    </ol>
+
+    <hr>
+    <h2>Thời khóa biểu</h2>
+    <table border = "1">
+        <tr>
+            <th>Thứ</th>
+            <th>Môn học</th>
+            <th>Phòng học</th>
+        </tr>
+        <tr>
+            <td rowspan = "2">Thứ 3</td>
+            <td>CNXHKH</td>
+            <td>A9-202</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>A1-1301</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Thứ 4</td>
+            <td>Thể chất</td>
+            <td>Sân TD</td>
+        </tr>
+        <tr>
+            <td>Web</td>
+            <td>A1-1301</td>
+        </tr>
+        <tr>
+            <td>Thứ 6</td>
+            <td>Python</td>
+            <td>A1-1301</td>
+        </tr>
+        <tr>
+            <th colspan ="3">Tổng cộng 5 buổi học</th>
+        </tr>
+    </table>
+
+    <hr>
+    <h2>Form liên hệ</h2>
+    <form>
+        <label for = "name">Họ tên</label><br/>
+        <input type="text" id="name" name="fullname"/><br/>
+        <br/><label for ="email">Email</label><br/>
+        <input type="text" id="email" name="email"><br/>
+        <br/><lable for="pwd">Mật khẩu</lable><br/>
+        <input type="password" id="pwd" name="pwd"><br/>
+    
+        <br/><label for="gender">Giới tính</label><br/>       
+        <input type="radio" id="male" name="gender" value="Nam">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ">
+        <label for="female">Nữ</label><br/>
+
+        <br/><label for="hobby">Sở thích</label><br/>
+        <br/><input type="checkbox" id="reading" name="hobby" value="Đọc sách">
+        <label for="reading">Đọc sách</label>
+        <input type="checkbox" id="music" name="hobby" value="Nghe nhạc">
+        <label for="music">Nghe nhạc</label>
+        <input type="checkbox" id="Code" name="hobby" value="Lập trình">
+        <label for="Code">Lập trình</label><br/>
+
+        <br/><label for="major">Ngành học</label><br/>
+        <br/><select id="major" name="major">
+            <option value="httt">Hệ thống thông tin</option>
+            <option value="khmt">Khoa học máy tính</option>
+            <option value="ktpm">Kỹ thuật phần mềm</option>
+        </select><br/>
+
+        <br/><label for="mesage">Giới thiệu bản thân</label><br/>
+        <br/><textarea name="message" rows="10" cols="30">
+        </textarea><br/>
+
+        <br/><button type="button">Gửi</button>
+    </form>
+
+    <hr>
+    <h2>Liên hệ</h2>
+    <a href="https://www.facebook.com/nt.ngoc.tuyet.590204">Facebook</a><br/>
+    <a href="https://github.com/NgocTuyet26/HIT-WEB-PUBLIC2026">GitHub</a><br/>
+    <a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a><br/>
+
+    <footer>
+        <hr>
+        <p>© 2026 Nguyễn Thị Ngọc Tuyết</p>
+    </footer>
+    
+</body>
+</html>
